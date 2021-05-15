@@ -1,0 +1,345 @@
+header{
+
+color: black;
+   background-color: #EDF8F4;
+    background-image: url("../foto/Union.png");
+    background-size: cover;
+    background-position: center;
+} 
+/* Navbar */
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    color: black !important;
+    margin-right: 80px;
+    position: relative;
+    font-family: 'Poppins' !important;
+
+}
+.navbar-toggle-icon{
+    background-color: yellowgreen;
+    z-index: 999;
+}
+.underline:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 36%;
+    position: absolute;
+    background: #FF8345;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.underline:hover:after {
+    width: 20%;
+    right: 0;
+}
+
+.btn{
+    background: #48B774;
+    width: 120px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    color: #ffff;
+    border-radius: 90px;
+}
+.btn:hover{
+    background: #1c7c43;
+    color: white;
+}
+/* End Navbar CSS */
+
+/* Section Header CSS */
+.section-header{
+    margin-top: 50px;
+}
+.title-header{
+    font-size: 66px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.subtitle-header{
+    font-family: "Poppins";
+    font-size: 22px;
+    color: #595959;
+}
+.get-started{
+    width: 150px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-header {
+        font-size: 36px;
+        
+    }
+    .subtitle-header {
+        font-size: 18px;
+       
+    }
+    .get-started {
+        width: 130px;
+        margin-right: 40px;
+        font-size: 12px;
+    }
+    .watch{
+        font-size: 14px;
+        width: 100px;
+    }
+}
+
+/* column2 header */
+.women{
+    background-image: url("../foto/Manusia\ .png"), url("../foto/dot\ kotak.png");
+    background-size: cover, 35%;
+    background-position: top, right;
+    background-repeat: no-repeat;
+}
+.card-team {
+    margin-left: auto;
+    margin-top: 70%;
+    width: 50%;
+    padding: 20px;
+      border-radius: 20px;
+      background-color: white;
+}
+.icon-card{
+    position: relative;
+    bottom: 160px;
+    right: -240px;
+}
+
+.card-tiga{
+    width: 80px;
+    height: 60px;
+    border-radius: 80px;
+    background-color: #EDEDED;
+  
+}
+.plus{
+   margin-top: 14px;
+   font-size: 18px;
+   color: #48B774;
+   font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-team {
+        margin-left: auto;
+        margin-top: 350px;
+        width: 90%;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .women {
+        background-image: url("../foto/Manusia\ .png"), url("../foto/dot\ kotak.png");
+        background-size: 100%, 35%;
+        background-position: top, top;
+        background-repeat: no-repeat;
+    }
+    .icon-card {
+       display: none;
+    }
+    .card-image{
+        width: 50%;
+    }
+    .card-tiga {
+        width: 90px;
+        height: 6   0px;
+        border-radius: 90px;
+        background-color: #EDEDED;
+
+    }
+
+    .plus {
+        margin-top: 14px;
+        font-size: 18px;
+        color: #48B774;
+        font-weight: 600;
+    }
+}
+
+/* brand */
+.brand{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    height: 120px;
+}
+.image-brand{
+    margin-top: 50%;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+   .brand {
+       margin-top: 20px;
+       margin-right: 0px;
+       width: 100%;
+       height: 60%;
+   }
+   .image-brand {
+       
+       margin-left: 20%;
+       margin-top: 20px;
+       margin-bottom: 100px;
+       width: 60%;
+   }
+}
+/* End Section Header CSS */
+
+/* what we do section */
+.what-we-do{
+    margin-top: 40px;
+}
+.title-section{
+    ont-size: 48px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.subtitle-section {
+    color: #45B06F;
+    font-size: 18px;
+    font-family: "Poppins";
+    
+}
+.paragraph{
+    font-family: "Poppins";
+    margin-top: 30px;
+    font-size: 20px;
+    color: black!important;
+}
+
+@media only screen and (max-width: 768px) {
+   .what-we-do {
+       margin-top: 150px;
+       padding: 10px;
+   }
+
+   .title-section {
+       font-size: 38px;
+       font-family: "Poppins";
+       font-weight: bold;
+   }
+
+   .subtitle-section {
+       color: #45B06F;
+       font-size: 18px;
+       font-family: "Poppins";
+
+   }
+
+   .paragraph {
+       font-family: "Poppins";
+       margin-top: 20px;
+       font-size: 16px;
+   }
+}
+/* end what we do section */
+/* card section */
+.section-card{
+    margin-top: 70px;
+}
+.card{
+    border: none;
+}
+.active-card{
+    background-color: #48B774;
+    color: white !important;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card-link{
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        border: none;
+        margin-top: 10px;
+    }
+}
+/* end card section */
+/* section case studie */
+
+.case-studie{
+    margin-top: 40px;
+}
+.all-project{
+  position: relative;
+  top:82px ;
+  color: black!important;
+}
+
+.card-studie-title{
+    font-family: "Poppins";
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    .card-img-top {
+       width: 50%;
+    }
+    .card-text-studie{
+       width: 60%;
+    }
+    .all-project {
+        display: none;
+    }
+}
+/* carousel */
+.customer{
+    padding-top:50px;
+    background-color: #EDF8F4;
+}
+.carousel-control-prev{
+    margin-left: 60%;
+    
+}
+
+/* form */
+.subscribe{
+    padding-bottom: 30px;
+}
+input{
+    width: 50%;
+    background-color: white  ;
+    border: none;
+    border-radius: 60px;
+    padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .form {
+        position: relative;
+        left: 20px !important;
+    }
+}
+.form{
+    position: relative;
+    left: -30px;
+}
+
+/* footer */
+.footer-about{
+    list-style-type: none;
+    position: relative;
+    left: -40px;
+   
+}
+.footer-about li a{
+ color: black !important;
+ text-decoration: none;
+}
+.social-footer{
+    background-color: #48B774;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media{
+    
+}
