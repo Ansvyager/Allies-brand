@@ -196,7 +196,7 @@ color: black;
     margin-top: 40px;
 }
 .title-section{
-    ont-size: 48px;
+    font-size: 48px;
     font-family: "Poppins";
     font-weight: bold;
 }
@@ -339,7 +339,4 @@ input{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-}
-.social-media{
-    
 }
